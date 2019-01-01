@@ -1,0 +1,37 @@
+documente urmarite 
+
+packt learn linux administration and  supercharge your career - video - capitol bash scripting 
+
+
+Summary 
+----------------------------------------------
+#!/path_to_interpreter
+VARIABLE_NAME="Value"
+$VARIABLE_NAME
+${VARIABLE_NAME}
+VARIABLE_NAME=$(command)
+-----------------------
+if [condition-is-true]
+then
+	commands
+elif [ condition-is-true ]
+then
+	commands
+else
+    commands
+fi
+-----------------------
+for VARIABLE_NAME in ITEM_1 ITEM_N
+    do
+	command 1
+	command 2
+	command N
+done
+------------------------
+Positional Parameters:
+	$0, $1, $2 ... $9
+	$@
+Comments start with #.
+Use read to accept input.
+
+
